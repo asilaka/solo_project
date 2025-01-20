@@ -1,24 +1,54 @@
-.start{
-   background-color: #006BFF;
+.start {
+  background-color: #006bff;
+
+  .input {
+   max-width: 500px;
+   background-image: url(/public/lupa.png);
+   background-repeat: no-repeat;
+   display: flex;
+   background-position: 20px;
+   color: white;
+    width: 100%;
+    padding: 15px 10px;
+    margin-right: 80px;
+   //  border: 1px solid #e9e9e9;
+   outline: none;
+   border: none;
+   border-radius: 10px;
+    background-color: #418aef;
+    padding-left: 50px;
+    &::placeholder {
+      color: #fff;
+    }
+
+  
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .menu {
+    display: flex;
+    gap: 40px;
+
+    a {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+  }
+}
+
+.container {
+   width: 90%;
+   margin: 0 auto;
+   padding: 20px;
+}
+
+.main {
+   width: 100%;
    display: flex;
    justify-content: center;
-   align-items: center;
-
-
-   .input{
-      width: 500px;
-      padding: 15px 10px;
-      
-   }
-
-   a{
-      text-decoration: none;
-      color: white;
-
-   }
-
-   .menu{
-      display: flex;
-      
-   }
 }

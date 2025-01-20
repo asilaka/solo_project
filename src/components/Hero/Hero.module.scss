@@ -1,0 +1,54 @@
+.fon{
+   background-image: url(/public/fon.png);
+ margin-top: 20px;
+ justify-content: center;
+   width: 100%;
+   height: 60dvh;
+   background-size: cover;
+   background-repeat: no-repeat;
+   
+}
+
+.step{
+
+   margin-left: 100px;
+   margin-top: 80px;
+   
+   h1{
+      font-size: 64px;
+      margin-left: 7px;
+      
+   }
+   p{
+      color: rgb(128, 128, 128);
+      margin-bottom: 52px;
+   }
+
+   button{
+      background-color: white;
+      border: none;
+      padding: 10px 29px;
+      margin-bottom: 20px;
+      color: #006BFF;
+   }
+}
+.wrap{
+   display: flex;
+   margin-top: 40px;
+   position: relative;
+   
+
+
+   img{
+      width: 240px;
+      
+   }
+}
+
+.fire{
+   margin-top: 30px;
+   position: absolute; 
+   right: -100px;
+
+   
+}

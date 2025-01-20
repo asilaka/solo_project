@@ -3,9 +3,10 @@ import s from './Header.module.scss'
 const Header = () => {
   return (
    <>
-   <section>
-    <div className="container">
+   <section  >
     <div className={s.start}>
+    <div className={s.container}>
+      <div className={s.main}>
         <input className={s.input} placeholder='Search fro artworks' type="text" />
       <div className={s.menu}>
         <a href="">Currency
@@ -20,6 +21,8 @@ const Header = () => {
         <a href="">Cart
           <img src="/public/buy.png" alt="" />
         </a>
+      </div>
+
       </div>
     </div>
     </div>
