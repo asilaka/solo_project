@@ -3,13 +3,15 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import {Navigation, Pagination, Loop} from "swiper/modules";
+import { Navigation, Pagination } from "swiper/modules";
 import s from "./Footer.module.scss";
+
 const Footer = () => {
   return (
     <>
       <section>
-        <div className={s.start}>
+<div className="container">
+<div className={s.start}>
           <h1>Shop by Anime</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetuer adipi scing elit, sed diam
@@ -20,12 +22,16 @@ const Footer = () => {
         </div>
 
         <Swiper
-          modules={[Pagination, Navigation,Loop]}
+          modules={[Pagination, Navigation]} // Модули Pagination и Navigation
           spaceBetween={20}
           slidesPerView={3}
           loop={true}
           navigation
           pagination={{ clickable: true }}
+          autoplay={{
+            delay: 3000, // Свайп каждые 3 секунды
+            disableOnInteraction: false, // Автопрокрутка не будет остановлена при взаимодействии
+          }}
           breakpoints={{
             320: { slidesPerView: 1 },
             768: { slidesPerView: 2 },
@@ -113,6 +119,7 @@ const Footer = () => {
             </div>
           </SwiperSlide>
         </Swiper>
+</div>
       </section>
     </>
   );

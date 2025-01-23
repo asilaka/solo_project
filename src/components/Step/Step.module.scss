@@ -1,0 +1,25 @@
+.wrap{
+    margin-top: 30px;
+    background-image: url(/public/fon.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center; 
+    gap: 150px;
+    h1{
+        font-size: 48px;
+    }   
+
+    button{
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: none;
+        background-color: #006BFF;
+        color: white;
+        margin-top: 24px;
+    
+    }
+
+    img{
+        max-width: 700px;
+    }
+}
