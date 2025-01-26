@@ -11,10 +11,18 @@
 .cards{
     display: flex;
 gap: 20px;
+
     img{
       
         width: 100%;
-        aspect-ratio: 1/1.5;
+        aspect-ratio: 1/1.3;
         object-fit: cover;
+    
     }
+
+   .card{
+    margin-top:160px;
+   }
 }
+
+

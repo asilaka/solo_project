@@ -14,7 +14,18 @@ const Step = () => {
 </div>
     
   </div>
-    </div>
+  
+
+<div className={s.dop}>
+  <div className={s.gift}>
+  <h1>Surprise your <br /> friend with <br /> Geekozi Gift Card</h1>
+  <button>Get Your Card</button>
+  </div>
+
+  <img src="/one.png" alt="" />
+
+</div>
+</div>
 
     </section>
  

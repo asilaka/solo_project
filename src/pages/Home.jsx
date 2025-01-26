@@ -7,6 +7,8 @@ import Wrap from '../components/Wrap/Wrap'
 import Top from '../components/Top/Top'
 import Lorem from '../components/Lorem/Lorem'
 import Step from '../components/Step/Step'
+import Blog from '../components/Blog/Blog'
+import Anime from '../components/Anime/Anime'
 
 const Home = () => {
   return (
@@ -19,6 +21,8 @@ const Home = () => {
    <Top/>
    <Lorem/>
    <Step/>
+   <Blog/>
+   <Anime/>
    </>
   )
 }

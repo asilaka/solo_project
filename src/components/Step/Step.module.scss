@@ -23,3 +23,39 @@
         max-width: 700px;
     }
 }
+
+
+.dop{
+ display: flex;
+ background-image: url(/public/fon.png);
+margin-top: 20px;
+justify-content: space-around;
+padding: 19px;
+gap: 200px;
+ .gift{
+margin-top: 70px;
+
+h1{
+    font-size: 48px;
+   
+    margin-left: 30px;
+
+}
+
+button{
+    background-color: #006BFF;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 9px;
+    margin-left: 30px;
+    margin-top: 10px;
+
+ 
+}
+ }
+
+ img{
+  max-width: 600px;
+ }
+}
