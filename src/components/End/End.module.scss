@@ -1,0 +1,38 @@
+.email{
+    background-image: url(/public/fon.png);
+    img{
+        max-width: 530px;
+        padding: 20px;
+    }
+    display: flex;
+    margin-top: 70px;
+    gap: 60px;
+
+    h2{
+        font-size: 32px;
+        margin-top: 90px;
+        margin-bottom: 10px;
+    }
+    p{
+        color: #414141;
+    }
+
+
+    input{
+       width: 330px;
+       height: 40px;
+       border-radius: 6px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+       padding-left: 18px;
+    }
+
+    button{
+        background-color: black;
+        color: white;
+        padding: 11px 25px;
+        margin-left: 10px;
+        border-radius: 6px;
+        
+    }
+}

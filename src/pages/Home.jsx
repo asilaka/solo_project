@@ -9,6 +9,7 @@ import Lorem from '../components/Lorem/Lorem'
 import Step from '../components/Step/Step'
 import Blog from '../components/Blog/Blog'
 import Anime from '../components/Anime/Anime'
+import End from '../components/End/End'
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
    <Step/>
    <Blog/>
    <Anime/>
+   <End/>
    </>
   )
 }
