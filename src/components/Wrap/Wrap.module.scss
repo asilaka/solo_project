@@ -15,6 +15,7 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+    flex-direction: column;
 
 
 
@@ -30,4 +31,35 @@
     }
 
 
+
 }
+
+.btns{
+    display: flex;
+    gap: 54px;
+     button {
+        padding: 14px 45px;
+        border: 1px solid #000;
+        background-color: transparent;
+        cursor: pointer;
+        transition: background-color 0.6s ease, color 0.9s ease;
+        border-radius: 14px;
+        border: 1 px solid rgba(0, 0, 0, 0.047);
+        margin-bottom: 20px;
+      }
+      
+      .activeButton {
+        background-color: blue !important;
+        color: white !important;
+      }
+      
+      
+   }
+
+.image {
+    width: 1300px;
+    height: 800px;
+    object-fit: cover;
+    
+  }
+  
